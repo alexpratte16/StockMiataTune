@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Sun Aug 23 11:23:04 EDT 2026"/>
+<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Sun Aug 23 11:34:55 EDT 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms342hP"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -65,7 +65,7 @@
          0.0 
          0.0 
       </constant>
-<constant digits="2" name="triggerOffset" units="deg">0.0</constant>
+<constant digits="2" name="triggerOffset" units="deg">2.0</constant>
 <constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
 <constant digits="0" name="RevLimNormal2_hyst" units="RPM">200.0</constant>
 <constant name="algorithm">"Speed Density"</constant>
