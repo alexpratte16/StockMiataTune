@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Fri Aug 28 21:55:26 EDT 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Fri Aug 28 22:05:46 EDT 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms342hP"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -888,16 +888,16 @@
          25.0 
       </constant>
 <constant cols="1" digits="0" name="aseCntTable" rows="10" units="cycles">
-         350.0 
-         330.0 
-         310.0 
-         290.0 
-         270.0 
-         250.0 
-         230.0 
-         210.0 
-         180.0 
-         150.0 
+         700.0 
+         660.0 
+         620.0 
+         580.0 
+         540.0 
+         500.0 
+         460.0 
+         420.0 
+         360.0 
+         300.0 
       </constant>
 <constant cols="1" digits="1" name="matTemps" rows="6" units="°F">
          160.0 
@@ -1526,7 +1526,6 @@
 <constant digits="1" name="testint" units="ms">300.032</constant>
 <constant digits="0" name="testrpm" units="RPM">399.9573379</constant>
 <constant digits="3" name="testpw" units="ms">5.000328</constant>
-<constant digits="0" name="testinjcnt">111.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
