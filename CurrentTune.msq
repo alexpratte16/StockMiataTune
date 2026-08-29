@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Sat Aug 29 12:20:29 EDT 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Sat Aug 29 12:33:33 EDT 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms342hP"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -722,12 +722,12 @@
 <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">3.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">500.0</constant>
 <constant digits="1" name="pwmidle_decelload_threshold" units="%">25.0</constant>
-<constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
+<constant digits="1" name="pwmidle_Kp_new" units="%">55.0</constant>
 <constant digits="1" name="pwmidle_Ki_new" units="%">100.0</constant>
-<constant digits="1" name="pwmidle_Kd_new" units="%">0.0</constant>
+<constant digits="1" name="pwmidle_Kd_new" units="%">6.0</constant>
 <constant name="pwmidle_freq">"480Hz"</constant>
-<constant name="pwmidle_freq_cl_opts_display_pid">"Basic"</constant>
-<constant digits="0" name="pwmidle_max_rpm_new">818.0</constant>
+<constant name="pwmidle_freq_cl_opts_display_pid">"Advanced"</constant>
+<constant digits="0" name="pwmidle_max_rpm_new">682.0</constant>
 <constant digits="1" name="pwmidle_targ_ramptime" units="s">2.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_disablepid">1000.0</constant>
 <constant name="pwmidle_port">"Local"</constant>
