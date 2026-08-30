@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Sat Aug 29 19:25:12 EDT 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Sat Aug 29 20:05:49 EDT 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms342hP"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -290,7 +290,7 @@
 <constant name="secondtrigopts1">"Off"</constant>
 <constant name="secondtrigopts2">"Off"</constant>
 <constant name="secondtrigopts3">"Off"</constant>
-<constant digits="1" name="tpsThresh" units="%/s">75.0</constant>
+<constant digits="1" name="tpsThresh" units="%/s">40.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">125.0</constant>
 <constant digits="1" name="taeColdA" units="ms">3.0</constant>
 <constant digits="0" name="taeColdM" units="%">130.0</constant>
@@ -1526,7 +1526,6 @@
 <constant digits="1" name="testint" units="ms">300.032</constant>
 <constant digits="0" name="testrpm" units="RPM">399.9573379</constant>
 <constant digits="3" name="testpw" units="ms">5.000328</constant>
-<constant digits="0" name="testinjcnt">111.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
