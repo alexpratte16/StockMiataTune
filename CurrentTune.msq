@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Fri Sep 11 21:56:59 EDT 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Fri Sep 11 22:12:19 EDT 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms342hP"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -2534,8 +2534,8 @@
 </page>
 <page number="6" size="1024">
 <constant name="idle_up_options_input">"Tableswitch"</constant>
-<constant name="idle_up_options">"Off"</constant>
-<constant name="ac_idleup_settings">"Off"</constant>
+<constant name="idle_up_options">"On"</constant>
+<constant name="ac_idleup_settings">"On"</constant>
 <constant name="idle_up_options_inv">"High"</constant>
 <constant digits="1" name="idle_up_duty" units="%">12.936</constant>
 <constant digits="0" name="idle_up_steps" units="steps">33.0</constant>
