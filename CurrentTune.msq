@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Mon Sep 07 22:07:57 EDT 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="&lt;html&gt;&#10;  &lt;head&gt;&#10;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;p style=&quot;margin-top: 0&quot;&gt;&#10;      &#10;    &lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" writeDate="Fri Sep 11 21:56:59 EDT 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++PNP" nPages="7" signature="MS2Extra comms342hP"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -144,10 +144,10 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
-         0.8 
-         2.7 
-         5.7 
-         11.3 
+         0.9 
+         2.8 
+         5.8 
+         9.4 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          2.9 
@@ -810,16 +810,16 @@
          0.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
+         51.352 
+         49.392 
+         48.608 
          48.216 
-         46.256 
-         45.472 
-         44.296 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
+         131.0 
+         126.0 
+         124.0 
          123.0 
-         118.0 
-         116.0 
-         113.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°F">
          30.0 
@@ -1863,9 +1863,9 @@
 <page number="4" size="1024">
 <constant cols="16" digits="0" name="veTable1" rows="16" units="%">
          39.0 32.0 28.0 31.0 26.0 22.0 21.0 21.0 15.0 14.0 15.0 15.0 15.0 14.0 14.0 13.0 
-         50.0 50.0 42.0 45.0 49.0 50.0 42.0 33.0 32.0 30.0 31.0 32.0 33.0 34.0 34.0 36.0 
-         52.0 52.0 53.0 54.0 56.0 56.0 54.0 47.0 46.0 44.0 46.0 48.0 50.0 51.0 52.0 55.0 
-         52.0 52.0 54.0 56.0 58.0 61.0 60.0 55.0 53.0 53.0 54.0 56.0 57.0 58.0 59.0 60.0 
+         54.0 54.0 42.0 45.0 49.0 50.0 42.0 33.0 32.0 30.0 31.0 32.0 33.0 34.0 34.0 36.0 
+         54.0 54.0 53.0 54.0 56.0 56.0 54.0 47.0 46.0 44.0 46.0 48.0 50.0 51.0 52.0 55.0 
+         54.0 54.0 54.0 56.0 58.0 61.0 60.0 55.0 53.0 53.0 54.0 56.0 57.0 58.0 59.0 60.0 
          57.0 57.0 59.0 60.0 60.0 64.0 64.0 59.0 57.0 59.0 61.0 61.0 63.0 64.0 64.0 64.0 
          62.0 63.0 63.0 65.0 64.0 67.0 67.0 63.0 64.0 65.0 67.0 64.0 66.0 66.0 66.0 66.0 
          63.0 64.0 68.0 69.0 69.0 71.0 72.0 67.0 67.0 70.0 71.0 66.0 68.0 69.0 69.0 69.0 
@@ -2025,10 +2025,10 @@
       </constant>
 <constant cols="12" digits="0" name="veTable1dozen" rows="12" units="%">
          39.0 32.0 28.0 31.0 26.0 22.0 21.0 21.0 15.0 14.0 15.0 15.0 
-         15.0 14.0 14.0 13.0 50.0 50.0 42.0 45.0 49.0 50.0 42.0 33.0 
-         32.0 30.0 31.0 32.0 33.0 34.0 34.0 36.0 52.0 52.0 53.0 54.0 
+         15.0 14.0 14.0 13.0 54.0 54.0 42.0 45.0 49.0 50.0 42.0 33.0 
+         32.0 30.0 31.0 32.0 33.0 34.0 34.0 36.0 54.0 54.0 53.0 54.0 
          56.0 56.0 54.0 47.0 46.0 44.0 46.0 48.0 50.0 51.0 52.0 55.0 
-         52.0 52.0 54.0 56.0 58.0 61.0 60.0 55.0 53.0 53.0 54.0 56.0 
+         54.0 54.0 54.0 56.0 58.0 61.0 60.0 55.0 53.0 53.0 54.0 56.0 
          57.0 58.0 59.0 60.0 57.0 57.0 59.0 60.0 60.0 64.0 64.0 59.0 
          57.0 59.0 61.0 61.0 63.0 64.0 64.0 64.0 62.0 63.0 63.0 65.0 
          64.0 67.0 67.0 63.0 64.0 65.0 67.0 64.0 66.0 66.0 66.0 66.0 
